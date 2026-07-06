@@ -1,0 +1,10 @@
+node_modules
+out
+dist
+release
+outputs
+coverage
+.env
+.env.*
+*.log
+.DS_Store
