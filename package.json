@@ -11,9 +11,9 @@
     "preview": "electron-vite preview",
     "typecheck": "tsc --noEmit",
     "build": "npm run typecheck && electron-vite build",
-    "dist": "npm run build && electron-builder",
-    "dist:mac": "npm run build && electron-builder --mac dmg",
-    "dist:win": "npm run build && electron-builder --win nsis"
+    "dist": "npm run build && electron-builder --publish never",
+    "dist:mac": "npm run build && electron-builder --mac dmg --publish never",
+    "dist:win": "npm run build && electron-builder --win nsis --publish never"
   },
   "build": {
     "appId": "com.smartbrochure.generator",
